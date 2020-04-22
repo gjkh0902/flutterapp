@@ -32,7 +32,7 @@ class FirstPage extends StatelessWidget {
                   textColor: Colors.blue,
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20.0)),
-                  label: Text("open new route"),
+                  label: Text("open Count demo"),
                   onPressed: () {
                     Navigator.push(context,
                         MaterialPageRoute(builder: (context) {

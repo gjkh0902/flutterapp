@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
 
 import 'package:flutterapp/test/Test.dart';
-import 'package:flutterapp/router/NamedRouter.dart';
 
 void main() => runApp(new MyApp());
 
@@ -40,7 +39,7 @@ class RandomWordsState extends State<RandomWords> {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text('FlutterApp test'),
+        title: new Text('FlutterApp test demo12'),
         actions: <Widget>[
           new IconButton(icon: new Icon(Icons.list), onPressed: _pushSaved),
           new IconButton(
